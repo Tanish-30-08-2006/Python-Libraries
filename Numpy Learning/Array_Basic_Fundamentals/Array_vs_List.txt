@@ -1,0 +1,6 @@
+#----------------------------------------ARRAY VS LIST-----------------------------------#
+
+Numpy is written in C which makes it 50x faster than python data structure list..
+
+Python list  ---> Mixed datatypes , slower perfomance , vector opearions must be done manually by using loops
+Numpy Arrays ---> Same datatype(single) , faster perfomance , vector operations easy + fast
