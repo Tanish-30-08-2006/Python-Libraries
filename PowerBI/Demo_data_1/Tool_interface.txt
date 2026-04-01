@@ -22,5 +22,11 @@ Order Id to OrderId
 
 now to get a new column delimetre based from exisiting one go to Add column --> Extract 
 
-now to see new index column i.e row labels we can select index column in add column section
+now to see new index column i.e row labels we can select index column in add column section from that
+you can add index column starting from 0 , 1 or any custom..
+
+# we can add custom column as well like 18% revenue for gst calculation of something in which we 
+can write our own formulas on exsiting columns... eg to calculate total sales from unit price * quantity
+# remember to apply the changes on datatype as to change the new datatype of new column created
+
 
