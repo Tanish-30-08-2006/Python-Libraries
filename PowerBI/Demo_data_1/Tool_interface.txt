@@ -12,3 +12,5 @@ TO TRIM-->  Tranform --> format --> trim every row // uppercase or lowercase eve
 
 Here if by default first row as headers and names of column names are column1 column 2..
 then go Home--> select (use first headers as column)
+
+# we do column profile , column distribution , column quality for step 1 for transforming data 
