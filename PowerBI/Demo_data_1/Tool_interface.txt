@@ -29,4 +29,6 @@ you can add index column starting from 0 , 1 or any custom..
 can write our own formulas on exsiting columns... eg to calculate total sales from unit price * quantity
 # remember to apply the changes on datatype as to change the new datatype of new column created
 
+Now , we can add conditional columns eg for feedback score given from 0 to 5 --> very poor poor below avg.... excellent
+so this is a conditional column based on an existing column..
 
