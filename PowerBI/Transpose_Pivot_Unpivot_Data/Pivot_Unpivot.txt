@@ -1,0 +1,4 @@
+When pivoting we select a column whose unique values will be created as another column after pivotting ,
+For example , initially we had three columns for jan feb march which is called wide data and jan feb march columns had their values ..
+now if we want to create a column of month  single column which has jan feb march and new column of values which had value for correspondi g month and region 
+
