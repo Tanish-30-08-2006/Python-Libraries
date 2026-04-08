@@ -37,3 +37,6 @@ to display one measure (sum of total sales or sum of total revenue ) WE CAN USE 
 remember to change datatype of sales , unit price , avg or sum sales from general to decimal number especially when we create any new measure from exisitng attribute from fact table
 
 now to create some conditions like if total sales for that period is greater than some value then we say sales were high or else low ... so we can know many days , months or years sales were low , we can use hierarchy here for year -- > month -- > day and apply that condition and hierarchy in a matri and check for all days where sales were low .......
+for these conditions we use a measure because columns are calcullated columns , it looks at data row by row and labels it low or high forever so if i label rows high and low and group it by month and year it will not calculate sum for that month or year and again label t high or low , columns are labels for every row we cant group it for month and year later
+# but 
+measure is an temporary attribure which can be calculated for rows and  group of rows for example for month 30 days sum must be calculated and mmust be labelled as high or low measure can do that grouping 
