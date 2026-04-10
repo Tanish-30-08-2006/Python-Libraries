@@ -64,14 +64,17 @@ here all rows in this new column check error will be 0 as we pass 0 if error .. 
 Check Error = IFERROR(Fact_Sales[TotalSales]/0,"error")
 here all rows will show error as message in check error column in fact sales table  as /0 will give error 
 
-If you use a Column: Power BI calculates the error once and stores it. It takes up a tiny bit of memory/file size.
+If we use a Column: Power BI calculates the error once and stores it. It takes up a tiny bit of memory/file size.
 
-If you use a Measure: Power BI calculates the error every time you look at the screen. Since it's a simple /0 check, it's fast, but it's technically "extra work" for the computer to do repeatedly for a result that never changes.
+If we use a Measure: Power BI calculates the error every time you look at the screen. Since it's a simple /0 check, it's fast, but it's technically "extra work" for the computer to do repeatedly for a result that never changes.
 
 # filter context functions 
 what if we want to calculate sum of sales for east region as a measure ..
 VERY IMP FUNCTION comes here called CALCULATE 
 what we want to do is display cards here for all four regions [SalesEastRegion] , [SalesWestRegion].... and a big card of total sales so we can visually see which region contributed the most by cards 
+
+CALCULATE() is also a filter function which allows us to evaulte a measure under a specific filter
+FILTER() is used to add or strip away some data points within a formula 
 
 remember when we want to see one region sales we will not create a matrix add region and then total sales which will do the same (calculate region wise sales ) but its visually not presentative than cards ...
 so for cards we need a single measure as cards we use single value so we create  4 measures of sum of sales per region and add them individually in card ..
@@ -88,6 +91,7 @@ now if we want to calculate sum of sales with respect to cities for 1000s of cit
 we will add one card of sum of sales and use a slicer to select the city we want sum of sales of ..
 
 # use of filter 
+
 use of filter can also be used when we want to view total sales above some threshold like high low label , we can use filter
 # to remove filter
 we can use "ALL" to remove filter like when we calculate total sales after filter then we have to remove filter everytime using total sales for any cards or any attribute or anything 
