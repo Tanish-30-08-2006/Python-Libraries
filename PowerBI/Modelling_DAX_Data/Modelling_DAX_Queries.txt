@@ -155,8 +155,30 @@ Visual -- > columns and measures are added as attributes in right side of our da
             running sum , moving average , rolling sum etc for current box(matrix) of our report .. and we want all attributes of 
             fact_sales to be clean and organised 
 
+            also , we need an attribute for a single visual then we dont want to waste a space of column or measure 
+
+
+
 # to change how a box or matrix looks like 
 
 for example slicer settings , we need tile or buttons (vertical list) , add button of select all , change colour of title of slicer , border colour
 title font , bold , italic , colour in background etc..
 for all of this we select that matrix go to format visuals and surf....
+
+
+# custom visuals or parametres..
+ to create a new parametres we select fact table , then modelling and then new parametre ..( new parameters in in modelling section )
+
+
+# if we want to add a parameter in which we can choose total sales and total quantity sold for product name or product category 
+
+we create a new parameter named metric picker from which we can pick TWO MEASURES sum of total sales and sum of quantity
+(remember we need to pick measures as we will do grouping in future as we want to calculate that for proudctname or product category) so we must create two measures \
+as sum of quantity and sum of totalSales as quant and total sales are columns calculated row by row ...
+
+we will choose field as new parameter as we want buttons to select not range to slide
+
+now we will create a matrix with productname and we will need values of metric picker( remember metric picker is a slider we cant add directly metric picker to a matrix)
+so we will have to drag its values which are two measures so when we select a one from slicer it displays on that different matrix box we created as a measure..
+so in new matrix box with product name or product accessory name add values as metirc picker values ...
+ 
