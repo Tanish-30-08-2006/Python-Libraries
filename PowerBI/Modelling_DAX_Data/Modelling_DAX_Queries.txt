@@ -147,4 +147,10 @@ VAR SalesMargin = Revenue - Cost
 RETURN SalesMargin
 
 
+# COLUMNS VS MEASURES VS VISUALS
 
+Column --> used when in future no grouping is done by month , year as it will be fix value row by row ..
+Measure --> used when we want to calculate a single value not for every row ..
+Visual -- > columns and measures are added as attributes in right side of our data but we just need to calculate a visual like 
+            running sum , moving average , rolling sum etc for current box(matrix) of our report .. and we want all attributes of 
+            fact_sales to be clean and organised 
