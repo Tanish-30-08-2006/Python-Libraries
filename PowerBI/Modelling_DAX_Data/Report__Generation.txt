@@ -45,3 +45,7 @@ Groups
 For example we have multiple cities and we want some cities to be part of tier 1 and some in tier 2 etc ..
 so we can create 4 groups of tiers and we can usr them for further tier wise total sales , transactions , etc..
 
+Bins for histogram ..
+For example we want bins of total sales in some slices so for that we right click total sales and new group and 
+group type we select as bins
+
