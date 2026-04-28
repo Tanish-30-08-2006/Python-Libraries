@@ -1,0 +1,6 @@
+In 2008 , American Data Scientist Wes Mckinney started development of library pandas while working in finance company as data scientist 
+
+He wanted a library to analyse data and clean data to manipulate it so he created it ...
+
+Name of Pandas came from economics term called "Panel Data " which is an economics term for large multidimensional databases 
+
